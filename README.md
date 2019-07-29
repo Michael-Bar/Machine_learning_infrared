@@ -1,3 +1,7 @@
 # Overview
 
-These scripts use mid-infrared spectroscopy data to predict soil properties. They represent a significant edit and improvement over the base ICRAF scripts (in that they actually work for One Acre Fund data, produce bootstrap CIs, and allow easy expansion for additional methods). 
+These scripts use mid-infrared spectroscopy data to predict soil properties from a library of wet chemistry results. 
+
+The scripts run a PLS and RF algorithm on spectra, the code is augmented with Monte Carlo error estimation and a generalisable code base (to allow more models to be tested)
+
+ 
